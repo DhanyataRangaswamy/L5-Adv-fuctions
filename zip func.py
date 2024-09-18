@@ -9,6 +9,6 @@ for x,y in zip(list1,list2[::-1]):
     print(x,y)
 
 stocks=['relience','infosys','tcs']
-price=[000,2500,3000]
+price=[1000,2500,3000]
 new_dict={stocks:price for stocks,price in zip(stocks,price)}
 print('\n{}'.format(new_dict))
